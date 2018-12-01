@@ -33,6 +33,3 @@ def posts_create(request):
     }
     return render(request=request, template_name='posts/create.html', context=context)
 
-# Todo (Mentee): After creating the campaigns app
-# 1. Create views.py where you define views similar to the above
-# 2. Create templates to list and create campaigns. Check `templates/posts/list.html` and `templates/posts/create.html`

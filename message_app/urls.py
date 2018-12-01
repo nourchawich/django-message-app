@@ -23,6 +23,7 @@ urlpatterns = [
 
     path('', views.home, name='home'),
 
-    path('posts/', include('posts.urls', namespace='posts'))
-    # Todo (Mentee): Include urls for campaigns
+    path('posts/', include('posts.urls', namespace='posts')),
+
+    path('api/', include('api.urls')),
 ]

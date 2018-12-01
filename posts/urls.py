@@ -9,5 +9,3 @@ urlpatterns = [
     path('create/', views.posts_create, name='create'),
 ]
 
-# Todo (Mentee): After creating the campaigns app
-#  1. Create urls.py where you define paths for list and create campaigns views
